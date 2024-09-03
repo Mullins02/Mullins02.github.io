@@ -1,0 +1,27 @@
+/* Ensure body takes full height */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+/* Flex container for the page */
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Main content area */
+main {
+    flex: 1; /* Takes up the remaining space */
+}
+
+/* Footer styles */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative; /* Position relative to container */
+    width: 100%; /* Full width */
+    bottom: 0; /* Align to bottom */
+}
